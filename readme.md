@@ -1,8 +1,5 @@
-# MERN Authentication Starter
+# Sample Authentication app MERN stack
 
-This is a starter app for a MERN stack application with authentication. This is for a SPA (Single Page Application) workflow that uses the [Vite](https://vite.dev) Build tool. This authentication workflow is based off of my [MERN Stack From Scratch | eCommerce](https://www.traversymedia.com/mern-stack-from-scratch) course.
-
-<img src="./frontend/public/screen.png" />
 
 It includes the following:
 
@@ -18,18 +15,16 @@ It includes the following:
 
 ## Usage
 
-- Create a MongoDB database and obtain your `MongoDB URI` - [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register)
-- Create a PayPal account and obtain your `Client ID` - [PayPal Developer](https://developer.paypal.com/)
+- Install mongodb atlas on the local and use the database. 
+
 
 ### Env Variables
-
-Rename the `.env.example` file to `.env` and add the following
 
 ```
 NODE_ENV = development
 PORT = 5000
 MONGO_URI = your mongodb uri
-JWT_SECRET = 'abc123'
+JWT_SECRET = 'haarcb24'
 ```
 
 Change the JWT_SECRET to what you want
