@@ -20,6 +20,8 @@ It includes the following:
 
 ### Env Variables
 
+- Rename the env.EXP to .env and use
+
 ```
 NODE_ENV = development
 PORT = 5000
